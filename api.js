@@ -8,7 +8,7 @@ app.use(cors());
 const port = 5500;
 
 const uri =
-  "mongodb+srv://prog:prog@cluster0.eeu9yqd.mongodb.net/?retryWrites=true&w=majority";
+  "mongodb://user:pass321@mongodb:4000";
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 
 app.get("/", async (req, res) => {
